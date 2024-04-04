@@ -1,0 +1,288 @@
+/* SECCION DE CONTENIDO INTERNO */
+/*Recordatorio MaxLevel.24*/
+
+*{
+    margin: 0;
+}
+
+h{
+    font-size: 16vh;
+    font-weight: 100;
+    font-family: 'Stencil Std', fantasy;
+}
+
+p{
+    font-size: 16vh;
+    font-weight: 100;
+    font-family: 'Stencil Std', fantasy;
+}
+
+body{
+    background-color: #2f4f4f;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+/* SECCION DE CONTENIDO INTERNO */
+
+#OconoPagina{
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 86vh;  
+}
+
+#Logo{
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 86vh;
+}
+
+#Max, #Level, #Punto{
+    font-size: 4vh;
+    font-weight: 100;
+    font-family: 'Stencil Std', fantasy;
+}
+
+#Max{
+    color: #008000;
+}
+
+#Level, #Punto{
+    color: #90ee90;
+}
+
+#LinksArriba{
+    display: flex;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    column-gap: 1vh;
+    justify-content: right;
+    min-width: 64vh;
+    max-width: 64vh;
+    min-height: 8vh;
+    max-height: 8vh;
+
+}
+
+#LinksArriba>a{
+    color: black;
+    min-width: 18vh;
+    max-width: 14vh;
+    font-family: 'Impact', fantasy;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    text-decoration: none;
+    color: #202020;
+    font-size: 3vh;
+    background-color: #90ee90;
+    padding: 1%;
+    border-radius: 1vh;
+    border-style: solid;
+    border-color: #008000;
+    border-width: 0.5vh;
+}
+
+#ArribaPagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    background-color: #202020;
+    background-size: 100%;
+    border-style: solid;
+    border-color: #008000;
+    border-width: 1vh;
+    animation: intro 0.5s;
+    flex-grow: 2;
+    min-height: 12vh;
+    max-height: 12vh;
+    min-width: 182vh;
+    max-width: 182vh;
+}
+
+#mainPagina{
+    display: flex;
+    flex-direction: row;
+    animation: intro 0.5s;
+    min-height: 164vh;
+    max-height: 164vh;
+    min-width: 100vh;
+    max-width: 100vh;
+}
+
+#PaginaIzquierda{
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    text-align: left;
+    border-style: solid;
+    border-color: #008000;
+    background-color: #202020;
+    border-width: 1vh;
+    flex-grow: 2;
+    min-height: 128vh;
+    max-height: 128vh;
+    min-width: 36vh;
+    max-width: 36vh;
+}
+
+#PaginaDerecha{
+    margin-top: 1vh;
+    margin-right: 1vh;
+    border-style: solid;
+    border-color: #008000;
+    background-color: #202020;
+    border-width: 1vh;
+    flex-grow: 16;
+    min-height: 128vh;
+    max-height: 128vh;
+    min-width: 145vh;
+    max-width: 145vh;
+}
+
+#PaginaFondo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border-style: solid;
+    border-color: #008000;
+    background-color: #202020;
+    border-width: 1vh;
+    flex-grow: 2;
+    max-width: 1vh;
+    min-height: 1vh;
+    max-height: 1vh;
+    min-width: 1vh;
+    max-width: 1vh;
+    animation: intro 0.5s;
+}
+
+#PaginaFondo>a{
+    display: flex;
+    padding: 1vh;
+    font-size: 1vh;
+    color: #000000;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Impact', fantasy;
+}
+
+#TextosIzquierda{
+    display: flex;
+    justify-content: center;
+    font-size: 1vh;
+    font-weight: 100%;
+    font-family: 'Impact', fantasy;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    color: #98bf98;
+}
+
+#BotonesIzquierda>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 1vh;
+    background-color: #90ee90;
+    padding: 1%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    color: black;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-family: 'Impact', fantasy;
+    border-style: solid;
+    border-color: #008000;
+}
+
+#Categorias{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+#IconoCategoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5%;
+    min-width: 1vh;
+    max-width: 1vh;
+    min-height: 1vh;
+    max-height: 1vh;
+    border-radius: 1vh;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-style: solid;
+    border-top: 1vh;
+    border-color: #008000;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#Categoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5%;
+    min-width: 1vh;
+    max-width: 1vh;
+    min-height: 1vh;
+    max-height: 1vh;
+    border-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    border-style: solid;
+    border-color: #008000;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+/* SECCION DE ANIMACIONES */
+
+@keyframes intro{
+    from{
+        margin-left: -8000px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@keyframes out{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 16000px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
